@@ -90,7 +90,7 @@ it('should have default getComponentPathLine implementation', () => {
 
 it('should have default title based on package.json name', () => {
 	const result = getConfig();
-	expect(result.title).toEqual('React Styleguidist Style Guide');
+	expect(result.title).toEqual('M800 Style Guide');
 });
 
 it('configDir option should be a directory of a passed config', () => {

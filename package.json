@@ -1,6 +1,6 @@
 {
-  "name": "react-styleguidist",
-  "description": "React components style guide generator",
+  "name": "M800",
+  "description": "M800 Style Guide generator",
   "version": "0.0.0-development",
   "homepage": "https://github.com/styleguidist/react-styleguidist",
   "author": {
@@ -31,6 +31,7 @@
   },
   "dependencies": {
     "ast-types": "^0.9.14",
+    "babel-core": "^6.26.0",
     "buble": "^0.17.0",
     "chalk": "^2.3.0",
     "classnames": "^2.2.5",
@@ -75,6 +76,7 @@
     "react-docgen-displayname-handler": "^1.0.1",
     "react-group": "^1.0.5",
     "react-icons": "^2.2.7",
+    "react-intl": "^2.4.0",
     "remark": "^8.0.0",
     "semver-utils": "^1.1.1",
     "style-loader": "^0.19.0",

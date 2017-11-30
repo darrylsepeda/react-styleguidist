@@ -211,9 +211,7 @@ const StyleGuideRenderer = ({ title, homepageUrl, components, toc, hasSidebar })
     <main className="wrapper">
       <div className="content">
         {components}
-        <footer className="footer">
-          <Markdown text={`Generated with [React Styleguidist](${homepageUrl})`} />
-        </footer>
+        <footer className="footer"></footer>
       </div>
       {hasSidebar &&
         <div className="sidebar">

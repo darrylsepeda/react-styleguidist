@@ -1,0 +1,21 @@
+[
+    {
+      "name": "Interface",
+      "components": ["Placeholder"]
+    },
+    {
+      "name": "Buttons",
+      "components": [
+        "Button",
+        "CounterButton",
+        "PushButton",
+        "RandomButton",
+        "WrappedButton"
+      ]
+    },
+    {
+      "name": "Callout",
+      "components": ["Callout"]
+    }
+]
+   

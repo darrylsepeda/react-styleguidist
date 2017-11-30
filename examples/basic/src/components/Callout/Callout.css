@@ -1,4 +1,4 @@
-.button {
+.callout {
 	color: #666;
 	background-color: #fff;
 	border: 1px solid currentColor;
@@ -8,12 +8,12 @@
 	cursor: pointer;
 }
 
-.button[disabled] {
+.callout[disabled] {
 	opacity: 0.35;
 	cursor: default;
 }
 
-.button + .button {
+.callout + .callout {
 	margin-left: 8px;
 }
 
