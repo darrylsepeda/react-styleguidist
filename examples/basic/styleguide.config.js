@@ -23,9 +23,9 @@ module.exports = {
 	styles: {
 		Logo: {
 			logo: {
-				color: '#fff'
+				color: '#fff',
 			},
-		}
+		},
 	},
 	serverPort: 8888,
 	highlightTheme: 'dracula',
@@ -42,14 +42,10 @@ module.exports = {
 			name,
 			content: content ? resolve('docs', content + '.md') : null,
 			components() {
-				return components.map((componentName) => {
-					return resolve(
-						'src/components',
-						componentName,
-						componentName + '.js'
-					);
+				return components.map(componentName => {
+					return resolve('src/components', componentName, componentName + '.js');
 				});
-			}
+			},
 		};
 	}),
 	// webpackConfig.resolve.alias['rsg-components/StyleGuide/StyleGuideRenderer'] = path.join(__dirname, 'source/styleguide/assets/StyleGuide.jsx'),
@@ -57,8 +53,8 @@ module.exports = {
 		resolve: {
 			alias: {
 				// 'rsg-components/Wrapper': resolve('src/styleguide/Wrapper.js')
-				'rsg-components/Wrapper': resolve('Wrapper.js')
-			}
+				'rsg-components/Wrapper': resolve('Wrapper.js'),
+			},
 		},
 		module: {
 			rules: [
